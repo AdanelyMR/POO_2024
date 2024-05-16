@@ -1,6 +1,6 @@
 #Convertir los tipos de datos
 
-#Nota: Solo es posible en una concatenacion concatenaar entre tipos de datos iguales 
+#Nota: Solo es posible en una concatenacion concatenar entre tipos de datos iguales 
 
 texto="Soy una cadena "
 numero=23
