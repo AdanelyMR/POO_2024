@@ -15,14 +15,15 @@ print("Mi nombre es ",nombre,"estoy en la especialidad de ",especialidad,"y estu
 print("\n")
 
 #Tercera forma MAS COMUN EN PYTHON 
-print(f"Mi nombre es,{nombre},estoy en la especialidad de,{especialidad},y estudio la carrera de,{carrera}")
+print(f"Mi nombre es,{nombre},estoy en la especialidad de ,{especialidad},y estudio la carrera de,{carrera}")
 
 print("\n")
 
 #Cuarta forma 
-print("Mi nombre es,{},estoy en la especialidad de,{},y estudio la carrera de,{}".format(nombre,especialidad, carrera))
+print("Mi nombre es,{},estoy en la especialidad de,{},y estudio la carrera de ,{}".format(nombre,especialidad, carrera))
 
 print("\n")
 
 #Quinta forma 
-print('Mi nombre es'+nombre+'estoy en la especialidad de'+especialidad+'y estudio la carrera de'+carrera)
+print('Mi nombre es'+nombre+'estoy en la especialidad de'+especialidad+'y estudio la carrera de '+carrera)
+
