@@ -11,3 +11,4 @@ continente=input("Ingrese el continente: ")
 # Mostrar el valor de las variables en pantalla
 print("País:", pais)
 print("Continente:", continente)
+print("El pais es "+pais+" el continente es "+continente)
