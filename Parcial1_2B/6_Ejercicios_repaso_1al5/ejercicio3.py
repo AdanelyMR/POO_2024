@@ -7,3 +7,7 @@ numero=int(input("ingrese un numero: "))
 for numero in range(1,60):
     multi=numero*numero
     print(multi)
+
+while numero<=60:
+    multi=numero*numero
+    print("El cuadrado del numero es: ",multi)
