@@ -29,6 +29,7 @@ while opcion:
  else:
     print(" Terminaste la ejecucion del SW")
     opcion=False
+
 def solicitarNumeros():
   global n1,n2  
   n1=int(input("Numero #1: "))
@@ -45,7 +46,10 @@ def operacionAritmetica(num1,num2,opcion):
     elif opcion=="4" or opcion=="/" or opcion=="DIVISION":
      return f"{n1}/{n2}={n1/n2}"  
 
-    
+def esperartecla(): 
+   print("Oprima cualquier tecla para continuar")
+   input()
+
 opcion=True    
 while opcion:
  print("\n\t..::: CALCULADORA BÁSICA :::... \n 1.- Suma \n 2.- Resta \n 3.- Multiplicacion \n 4.- División \n 5.- SALIR ")
@@ -53,9 +57,12 @@ while opcion:
  if opcion!="5":
    solicitarNumeros()
    print(operacionAritmetica(n1,n2,opcion))
+   esperartecla()
  else:  
      opcion=False    
      print("Terminaste la ejecucion del SW")
 
 #Funcion dentro de una clase es un metodo
+
+
 
